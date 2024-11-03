@@ -1,6 +1,8 @@
 import "./App.css";
 import Counter from "./Counter";
 import Team from "./Team";
+import Friends from "./UseEffect/Friends";
+import Users from "./UseEffect/Users";
 
 
 function App() {
@@ -37,6 +39,9 @@ function App() {
       </button>
       <Counter></Counter>
       <Team></Team>
+
+      <Users></Users>
+      <Friends></Friends>
     </>
   );
 }

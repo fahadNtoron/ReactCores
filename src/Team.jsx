@@ -18,6 +18,8 @@ export default function Team(){
         padding:'15px',
         borderRadius:'15px'
     }
+
+    // work of useEffect start from here
     return(
         <div>
             <h3 style={teamStyle}>Players: {team} </h3>
